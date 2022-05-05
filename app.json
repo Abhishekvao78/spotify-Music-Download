@@ -1,5 +1,5 @@
 {
-  "name": "Spotify-Loader",
+  "name": "Spotify Downloader",
   "description": "Telegram bot to upload spotify playlist/artist/album/track music file to telegram.",
   "keywords": [
     "telegram",
@@ -11,9 +11,9 @@
     "album",
     "track"
   ],
-  "success_url": "https://github.com/X-Gorn/Spotify-Loader",
-  "website": "https://github.com/X-Gorn",
-  "repository": "https://github.com/X-Gorn/Spotify-Loader",
+  "success_url": "https://github.com/cybersbots/spotify-Music-Download",
+  "website": "https://github.com/cybersbots",
+  "repository": "https://github.com/cybersbots/spotify-Music-Download",
   "env": {
     "BOT_TOKEN": {
       "description": "Your bot token, as a string. Get this value from https://t.me/BotFather",
