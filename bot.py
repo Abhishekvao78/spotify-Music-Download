@@ -38,10 +38,10 @@ async def get_stats(id):
 # Buttons
 START_BUTTONS=[
     [
-        InlineKeyboardButton("Source", url="https://github.com/X-Gorn/Spotify-Loader"),
-        InlineKeyboardButton("Project Channel", url="https://t.me/xTeamBots"),
+        InlineKeyboardButton("Follow", url="https://t.me/cyberstainbot"),
+        InlineKeyboardButton("Project Channel", url="https://t.me/cyberstainbot"),
     ],
-    [InlineKeyboardButton("Author", url="https://t.me/xgorn")],
+    [InlineKeyboardButton("Support", url="https://www.buymeacoffee.com/princejaiswal")],
 ]
 
 CB_BUTTONS=[
@@ -91,7 +91,7 @@ async def start(bot, update):
     if db:
         if not await is_user_exist(update.from_user.id):
             await add_user(id=update.from_user.id, output_format='mp3', use_youtube="False", path_template='{artist}/{album}/{artist} - {title}.{ext}')
-    await update.reply('I\'m Spotify-Loader\nYou can download spotify playlist/artist/album/track music using this bot!', True, reply_markup=InlineKeyboardMarkup(START_BUTTONS))
+    await update.reply('I\'m Spotify Music Download By @cyberstainbot\nYou can download spotify playlist/artist/album/track music using this bot!', True, reply_markup=InlineKeyboardMarkup(START_BUTTONS))
 
 
 @xbot.on_message(filters.command('help') & OWNER_FILTER & filters.private)
