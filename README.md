@@ -8,6 +8,10 @@ Telegram bot to upload spotify playlist/artist/album/track music file to telegra
 - Upload Spotify Playlist/Artist/Album/Track as ZIP (Zipped Folder)
 - Upload Spotify Playlist/Artist/Album/Track as Music (Uploaded One By One)
 
+# Simple Deploy
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://www.heroku.com/deploy/?template=https://github.com/cybersbots/spotify-Music-Download)
+
 ### Commands:
 
 - `/settings` : Settings for more features. only avalable if you've filled MONGO_DB_URL
@@ -17,8 +21,8 @@ Telegram bot to upload spotify playlist/artist/album/track music file to telegra
 
 ## Telegram Support:
 
-[![Channel](https://img.shields.io/badge/TG-Channel-30302f?style=flat&logo=telegram)](https://t.me/xTeamBots)
-[![Group](https://img.shields.io/badge/TG-Group-30302f?style=flat&logo=telegram)](https://t.me/xTeamBotsSupport)
+[![Channel](https://img.shields.io/badge/TG-Channel-30302f?style=flat&logo=telegram)](https://t.me/cyberstainbot)
+[![Group](https://img.shields.io/badge/TG-Group-30302f?style=flat&logo=telegram)](https://t.me/cyberstainbot)
 
 ## Credits, and Thanks to
 
