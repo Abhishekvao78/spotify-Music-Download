@@ -10,7 +10,7 @@ Telegram bot to upload spotify playlist/artist/album/track music file to telegra
 
 # Simple Deploy
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://www.heroku.com/deploy/?template=https://github.com/cybersbots/spotify-Music-Download)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://www.heroku.com/deploy/?template=https://github.com/Abhishekvao78/spotify-Music-Download)
 
 
 [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/-TSsRc?referralCode=jugnucode)
